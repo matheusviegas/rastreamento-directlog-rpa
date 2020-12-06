@@ -1,0 +1,15 @@
+package br.com.mvsouza.dto;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+public class TrackingRequest {
+
+    private TrackingType type;
+    private String code;
+
+}
